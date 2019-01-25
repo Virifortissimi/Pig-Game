@@ -140,6 +140,10 @@ i {
 .btn-new { top: 45px;}
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
+.how a {
+    color: darkgray;
+    text-decoration: none;
+}
 
 .dice {
     position: absolute;
@@ -152,3 +156,27 @@ i {
 
 .winner { background-color: greenyellow; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
+
+
+.how-style {
+    background: beige;
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    box-shadow: 5px 5px 3px;
+    margin-top: 30vh;
+    margin-left: 15%;
+}
+
+.how-style h1 {
+        text-align: center;
+        font-family: fantasy;
+        margin-bottom: 20px;
+}
+
+.how-style p {
+    font-family: serif;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
